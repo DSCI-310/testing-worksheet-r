@@ -3,10 +3,6 @@ title: "Testing in R worksheet"
 format: html
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 Welcome to the testing in R worksheet! 
 This is designed to give you some hands-on practice with testing syntax in R.
 Run the cell below to load the libraries needed for this worksheet, 
