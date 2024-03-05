@@ -23,7 +23,7 @@ Write a function called `mpg_to_kml` that takes a vector of numbers in miles per
 
 *Hint: 1 mile per gallon is 0.425144 kilometres per litre.*
 
-```{r tags=c()}
+```{r}
 mpg_to_kml <- NULL
 
 mpg_to_kml(1)
@@ -41,7 +41,7 @@ Write **at least** two {testthat} `expect_equal` tests inside of an `test_that` 
 
 *Source: Austin Powers + http://www.quickmeme.com/meme/3ua14n*
 
-```{r tags=c()}
+```{r}
 # YOUR CODE HERE
 ```
 
@@ -61,7 +61,7 @@ Add exceptions to your `mpg_to_kml` function so that you can handle inappropriat
 
 Now write **at least** two {testthat} `expect_error` tests inside of an `test_that` statement to ensure that your function works as expected (i.e., does your function throw errors when incorrect inputs are given?).
 
-```{r tags=c()}
+```{r}
 # YOUR CODE HERE
 ```
 
@@ -71,7 +71,7 @@ Now write **at least** two {testthat} `expect_error` tests inside of an `test_th
 
 Now write {roxygen2} style documentation for your function!
 
-```{r tags=c()}
+```{r}
 # YOUR CODE HERE
 ```
 
@@ -106,6 +106,10 @@ get_rectangle <- function(data, row_filter, column_range = everything()) {
 }
 ```
 
+```{r}
+# YOUR CORRECTED CODE HERE
+```
+
 *Hint: embracing works for more than just a column name - you can even embrace a variable that will hold a filter logical statement (e.g., `body_mass_g > 3000`).*
 
 ### Exercise 7
@@ -134,6 +138,10 @@ group_summary <- function(data, group, col, fun) {
         group_by(group) %>% 
         summarise(col = fun(col))
 }
+```
+
+```{r}
+# YOUR CORRECTED CODE HERE
 ```
 
 ## Solutions
