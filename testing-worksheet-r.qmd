@@ -59,7 +59,7 @@ Add exceptions to your `mpg_to_kml` function so that you can handle inappropriat
 
 *Solution posted at end of worksheet.*
 
-Now write **at least** two {testthat} `expect_error` tests inside of an `test_that` statement to ensure that your function works as expected (i.e., does your function throw errors when incorrect inputs are given?).
+Now write **at least** two {testthat} `expect_error` tests inside of an `test_that` statement to ensure that your function fails as expected (i.e., does your function throw errors when incorrect inputs are given?).
 
 ```{r}
 # YOUR CODE HERE
@@ -134,8 +134,8 @@ Let's practice using this operator! The `group_summary` shown below does not wor
 #' @examples
 group_summary(mtcars, cyl, hp, mean)
 group_summary <- function(data, group, col, fun) {
-    data %>% 
-        group_by(group) %>% 
+    data |> 
+        group_by(group) |> 
         summarise(col = fun(col))
 }
 ```
