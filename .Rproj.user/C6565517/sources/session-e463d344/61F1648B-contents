@@ -10,6 +10,7 @@ when writing functions in the tidyverse.
 ## Dependencies:
 - R and the following R packages:
 - `digest`
+- `ottr`
 - `rlang`
 - `testthat`
 - `tidyverse`
